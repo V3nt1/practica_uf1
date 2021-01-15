@@ -1,4 +1,4 @@
-Los 4 primeros archivos son simplemente relleno para el script del md5, no tienen ningun contenido.
+Los 4 primeros archivos despues del readme son simplemente relleno para el script del md5, no tienen ningun contenido.
 
 Respuestas a los conceptos a explicar:
 
