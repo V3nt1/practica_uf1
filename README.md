@@ -31,3 +31,21 @@ Además, como ya he comentado, es más agil que una interfaz gráfica.
 En el video se me ha olvidado explicar como funcionan los scripts que has pedido, asi que te lo pongo aquí:  
   
 -----------------------------------------------------------------------------------------------------------------  
+
+El script del md5.
+
+Basicamente hacemos un for que recorre todo el ls, y a cada iteracion del bucle se le asigna el valor a la variable VARIABLE.
+Cada vez que se recorre el bucle, se ejecuta el comando echo junto con md5+las letras necesarias para hacer que cambie de color
+el mensaje, a continuacion el mensaje y para finalizar las letras para que el color de la terminal vuelva a ser el normal.
+Finalmente utilizamos | cowsay para que se mande dicho comando mediante la salida y entrada standard a cowsay.
+
+El script del directorio, archivo, frase y fecha.
+
+Pedimos un nombre de directorio con read y lo guardamos en la variable DIRECTORIO.
+Pedimos un nombre de archivo con read y lo guardamos en la variable ARCHIVO.
+Finalmente pedimos una frase con read y la guardamos en la variable FRASE.
+
+Para hacer que se genere el directorio con el archivo que contiene la frase dada por el usuario y la fecha actual se hace lo siguiente.
+mkdir DIRECTORIO para generar el directorio con el nombre que ha dado el usuario.
+cd DIRECTORIO para meternos dentro del directorio.
+echo date "
