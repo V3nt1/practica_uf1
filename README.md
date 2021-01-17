@@ -46,6 +46,6 @@ Pedimos un nombre de archivo con _read_ y lo guardamos en la variable _ARCHIVO_.
 Finalmente pedimos una frase con _read_ y la guardamos en la variable _FRASE_.  
 
 Para hacer que se genere el directorio con el archivo que contiene la frase dada por el usuario y la fecha actual se hace lo siguiente.  
-_mkdir $DIRECTORIO_ para generar el directorio con el nombre que ha dado el usuario.  
-_cd $DIRECTORIO_ para meternos dentro del directorio.  
-_echo "`date`$FRASE" > $ARCHIVO_ para que se genere el archivo dado por el usuario y además contenga la fecha actual y la frase dada.
+**_mkdir $DIRECTORIO_** para generar el directorio con el nombre que ha dado el usuario.  
+**_cd $DIRECTORIO_** para meternos dentro del directorio.  
+**_echo "`date`$FRASE" > $ARCHIVO_** para que se genere el archivo dado por el usuario y además contenga la fecha actual y la frase dada.
