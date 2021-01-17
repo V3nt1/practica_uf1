@@ -41,9 +41,9 @@ Finalmente utilizamos | cowsay para que se mande dicho comando mediante la salid
   
 **El script del directorio, archivo, frase y fecha.**
   
-Pedimos un nombre de directorio con _read_ y lo guardamos en la variable _DIRECTORIO_.  
-Pedimos un nombre de archivo con _read_ y lo guardamos en la variable _ARCHIVO_.  
-Finalmente pedimos una frase con _read_ y la guardamos en la variable _FRASE_.  
+Pedimos un nombre de directorio con _read_ y lo guardamos en la variable **_DIRECTORIO_**.  
+Pedimos un nombre de archivo con _read_ y lo guardamos en la variable **_ARCHIVO_**.  
+Finalmente pedimos una frase con _read_ y la guardamos en la variable **_FRASE_**.  
 
 Para hacer que se genere el directorio con el archivo que contiene la frase dada por el usuario y la fecha actual se hace lo siguiente.  
 **_mkdir $DIRECTORIO_** para generar el directorio con el nombre que ha dado el usuario.  
