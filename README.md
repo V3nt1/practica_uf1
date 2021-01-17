@@ -24,3 +24,10 @@ Las ventajas que tiene es que si aprendes a utilizar la línea de comandos corre
 da igual que la interfaz de una máquina difiera de otra, ya que podrás conocer esta  
 mediante la línea de comandos.  
 Además, como ya he comentado, es más agil que una interfaz gráfica.  
+
+
+-----------------------------------------------------------------------------------------------------------------  
+  
+En el video se me ha olvidado explicar como funcionan los scripts que has pedido, asi que te lo pongo aquí:  
+  
+-----------------------------------------------------------------------------------------------------------------  
